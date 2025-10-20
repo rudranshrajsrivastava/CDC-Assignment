@@ -1,3 +1,5 @@
+The following solution is in the O(n^2) time complexity and we can optimize it if we use the two pointers approach to O(n) time complexity
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -18,3 +20,5 @@ public:
         return {-1};
 }
 };
+
+
