@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void exceptAlphabet(string str,int length)
+{
+    for(int i=0;i<length;i++)
+    {
+        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+        {
+            cout << str[i] << "";
+        }
+    }
+}
+
+int main()
+{
+    string str;
+    getline(cin,str);
+    int length=str.length();
+    exceptAlphabet(str,length);
+    return 0;
+}
